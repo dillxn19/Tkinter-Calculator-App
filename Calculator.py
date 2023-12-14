@@ -13,6 +13,8 @@ class Custom_button:
         self.row_num = row_num
         self.col_num = col_num
 
+   
+    #create buttons
     def draw_button(self):
         if self.name == "C" or self.name == "⌫":
             button = Button(root, text = self.name, command = self.button_clicked, width = 12, height = 2)
